@@ -1,10 +1,11 @@
 #ifndef _EEPROM_ESP32_h
 #define _EEPROM_ESP32_h
-#if defined(ARDUINO) && ARDUINO >= 100
-#include "arduino.h"
-#else
-//#include "WProgram.h"
+
+#ifndef _ARDUINO_H
+#include <Arduino.h>
+#define _ARDUINO_H
 #endif
+
 class EEPROM_ESP32{
 public:
 	void clear_EEPROM();

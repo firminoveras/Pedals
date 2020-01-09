@@ -9,7 +9,7 @@ void NextionMessager::handle(){
 	if(this && Serial && Serial.available() > 0){
 		bool atualizando = true;
 		unsigned long tempoInicial, tempoAtual;
-		while(atualizando){
+		while(atualizando){			
 			if(Serial.available() > 0) write(Serial.read());
 			if(available() > 0) Serial.write(read());
 			tempoInicial = millis();
