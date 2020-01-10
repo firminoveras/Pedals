@@ -3,6 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\firmi\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\**",
+                "C:\\Users\\firmi\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\**",
                 "C:\\Users\\firmi\\AppData\\Local\\Arduino15\\packages\\arduino\\**",
                 "C:\\Users\\firmi\\AppData\\Local\\Arduino15\\packages\\Heltec-esp32\\tools\\**",
                 "C:\\Users\\firmi\\AppData\\Local\\Arduino15\\packages\\Heltec-esp32\\hardware\\esp32\\0.0.2-rc1\\**"
