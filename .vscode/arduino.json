@@ -2,5 +2,6 @@
     "sketch": "ESP32\\Pedals.ino",
     "board": "Heltec-esp32:esp32:wifi_lora_32_V2",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=8M,UploadSpeed=921600,DebugLevel=none",
-    "port": "COM5"
+    "port": "COM5",
+    "output": "\\build"
 }
