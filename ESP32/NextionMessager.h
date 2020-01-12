@@ -11,6 +11,7 @@
 #define CINZA_CLARO		16904
 #define CINZA_ESCURO	6339
 #define VERMELHO		36864
+#define VERDE			1024
 
 #define SERIAL_TIMEOUT 50
 
